@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>URL</key>
-	<string>https://github.com/fox705/Petsapp/blob/master/Documentation/Contractual%20Project%20Documents/Project%20Definition.md</string>
-</dict>
-</plist>
+# This is _**MyWords**_
+ 
+### This is _an app for people to comunicate. It includes various functions which will people learn languages.
+
+## 1. Quiz of Words and Sentence 
+	
+	Find your favorite movie, song, book, article. Upload it. Learn all words and sentence. Enyoy your media and learn languages faster.
