@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>URL</key>
-	<string>https://github.com/fox705/Petsapp/blob/master/Documentation/Contractual%20Project%20Documents/RequirementsDocument.md</string>
-</dict>
-</plist>
+# Requirements document
+
+## Upload Media
+ - Each user can upload media file and chose the language he want to learn.
+ - Program will read it to text file. 
+ - Translate it as words and sentence. 
+ - Put to individual DataBase
+ 
+## Quiz:
+ - First user will get the quiz made by words
+ - After finishing he will get quiz made by sentence
+ 
+ - **He is ready to enyoy his media!!
