@@ -15,6 +15,14 @@ public class Manager {
     Sentence sentence;
     int id = 1;
 
+    public Manager(String file) {
+
+        try {
+            readFile(file);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
 
     public void readFile(String file) throws FileNotFoundException {
 
@@ -22,7 +30,7 @@ public class Manager {
         String line;
         while(sc.hasNext()){
             sc.delimiter();
-            db.add(new Sentence(id++, sc.next("[ , ]")));
+            db.add(new Sentence(id++, sc.next("[ . ]")));
             
         }
 
