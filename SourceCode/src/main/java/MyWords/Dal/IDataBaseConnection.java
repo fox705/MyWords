@@ -1,4 +1,4 @@
-package MyWords.Data;
+package MyWords.Dal;
 
 import MyWords.Core.Sentence;
 

@@ -1,13 +1,12 @@
 package MyWords.Manager;
 
 import MyWords.Core.Sentence;
-import MyWords.Data.JsonDataBaseConnection;
+import MyWords.Dal.JsonDataBaseConnection;
 
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class Manager {
 

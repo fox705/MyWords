@@ -1,10 +1,11 @@
-package MyWords.Data;
+package MyWords.Dal;
 
 import MyWords.Core.Sentence;
-import MyWords.Data.IDataBaseConnection;
+import org.json.JSONObject;
 
 public class JsonDataBaseConnection implements IDataBaseConnection {
 
+    JSONObject jo = new JSONObject();
 
     public void Connect() {
 
@@ -15,7 +16,7 @@ public class JsonDataBaseConnection implements IDataBaseConnection {
     }
 
     public void add(Sentence sentence) {
-
+        jo.put("Sentence", sentence);
     }
 
 
