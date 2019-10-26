@@ -11,7 +11,7 @@ public class Sentence {
     private int answerNumber;
     private long pointer;
 
-    public Sentence(int id, String sentence, int languageId) {
+    public Sentence(int id, String sentence) {
         this.id = id;
         this.sentence = sentence;
         this.languageId = languageId;
